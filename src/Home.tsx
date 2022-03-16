@@ -2,11 +2,15 @@ import Account from './account'
 
 function Home() {
   return (
-    <div className="flex bg-black">
-      <p className="text-red-500">my name is goodnews sandy</p>
+   
+        <div>
+             <div className="flex bg-black">
+        <p className="text-red-500">my name is goodnews sandy</p>
       <p>name again</p>
+        </div>
      
-      <Account />
+     <div><Account /></div>
+      
     </div>
   )
 }
